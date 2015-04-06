@@ -10,23 +10,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -180,15 +168,15 @@
         </option>
         <option>
           <name>General Idata Stack Size</name>
-          <state>0xC0</state>
+          <state>0x40</state>
         </option>
         <option>
           <name>General Pdata Stack Size</name>
-          <state>0x00</state>
+          <state>0x80</state>
         </option>
         <option>
           <name>General Xdata Stack Size</name>
-          <state>0x280</state>
+          <state>0x100</state>
         </option>
         <option>
           <name>General Ext Stack Size</name>
@@ -250,13 +238,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -271,10 +295,9 @@
           <state>HAL_AES_DMA=TRUE</state>
           <state>HAL_DMA=TRUE</state>
           <state>POWER_SAVING</state>
-          <state>xPLUS_BROADCASTER</state>
+          <state>PLUS_BROADCASTER</state>
           <state>HAL_LCD=FALSE</state>
           <state>HAL_LED=TRUE</state>
-          <state>CC2540_MINIDK</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -538,6 +561,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -717,9 +744,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1039,6 +1066,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -1067,6 +1098,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -1080,23 +1116,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -1320,13 +1344,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1606,6 +1666,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -1785,9 +1849,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2107,6 +2171,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -2135,6 +2203,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -2148,23 +2221,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -2388,13 +2449,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2679,6 +2776,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -2858,9 +2959,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3180,6 +3281,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -3208,6 +3313,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -3221,23 +3331,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -3461,13 +3559,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3752,6 +3886,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -3931,9 +4069,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4253,6 +4391,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -4281,6 +4423,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -4294,23 +4441,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -4534,13 +4669,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4826,6 +4997,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -5005,9 +5180,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5327,6 +5502,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -5355,6 +5534,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -5368,23 +5552,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -5608,13 +5780,49 @@
           <version>0</version>
           <state>3</state>
         </option>
+        <option>
+          <name>Extended stack address</name>
+          <state>0x9B</state>
+        </option>
+        <option>
+          <name>Extended stack mask</name>
+          <state>0x03</state>
+        </option>
+        <option>
+          <name>Extended stack is offset</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5900,6 +6108,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -6079,9 +6291,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -6401,6 +6613,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -6429,6 +6645,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -6436,6 +6657,18 @@
   </configuration>
   <group>
     <name>APP</name>
+    <file>
+      <name>$PROJ_DIR$\..\Source\leds.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\leds.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\ledService.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\ledService.h</name>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\Source\OSAL_SimpleBLEPeripheral.c</name>
     </file>
@@ -6454,52 +6687,52 @@
     <group>
       <name>Common</name>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\common\hal_drivers.c</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\common\hal_drivers.c</name>
       </file>
     </group>
     <group>
       <name>Include</name>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_adc.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_adc.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_assert.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_assert.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_board.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_board.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_defs.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_defs.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_drivers.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_drivers.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_flash.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_flash.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_key.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_key.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_lcd.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_lcd.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_led.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_led.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_rpc.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_rpc.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_sleep.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_sleep.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_timer.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_timer.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_uart.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\hal\include\hal_uart.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\Components\services\saddr\saddr.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\components\services\saddr\saddr.h</name>
       </file>
     </group>
     <group>
@@ -6509,67 +6742,67 @@
         <group>
           <name>Config</name>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_board_cfg.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_board_cfg.h</name>
           </file>
         </group>
         <group>
           <name>Drivers</name>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_adc.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_adc.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_aes.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_crc.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_crc.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_dma.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_flash.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_key.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_key.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_lcd.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_lcd.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_led.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_led.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_sleep.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_sleep.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_startup.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_startup.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_timer.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_timer.c</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_uart.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_uart.c</name>
           </file>
         </group>
         <group>
           <name>Includes</name>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_aes.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_ccm.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_ccm.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_crc.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_crc.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_dma.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_mcu.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_mcu.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_types.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\components\hal\target\CC2540EB\hal_types.h</name>
           </file>
         </group>
       </group>
@@ -6578,46 +6811,46 @@
   <group>
     <name>INCLUDE</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\att.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\att.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\gap.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\gap.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\gatt.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt_uuid.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\gatt_uuid.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\hci.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\hci.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\l2cap.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\l2cap.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\linkdb.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\host\linkdb.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\ll.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\controller\include\ll.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\common\npi\npi_np\npi.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\controller\include\phy.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\controller\include\phy.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\sm.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\sm.h</name>
     </file>
   </group>
   <group>
     <name>LIB</name>
     <file>
-      <name>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib</name>
+      <name>$PROJ_DIR$\..\..\libraries\CC2541DB\bin\CC2541_BLE_peri.lib</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib</name>
+      <name>$PROJ_DIR$\..\..\libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib</name>
     </file>
   </group>
   <group>
@@ -6629,99 +6862,88 @@
   <group>
     <name>OSAL</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\include\bcomdef.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\OSAL.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\osal_bufmgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\osal_cbtimer.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\OSAL_ClockBLE.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\OSAL_Memory.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\OSAL_PwrMgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\mcu\cc2540\osal_snv.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\osal\common\OSAL_Timers.c</name>
     </file>
   </group>
   <group>
     <name>PROFILES</name>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\DevInfo\devinfoservice.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\DevInfo\devinfoservice.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\DevInfo\devinfoservice.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\DevInfo\devinfoservice.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\gap.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\gapbondmgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\gapbondmgr.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Include\gapgattserver.h</name>
+      <name>$PROJ_DIR$\..\..\include\gapgattserver.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\components\ble\host\gatt_uuid.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Include\gattservapp.h</name>
+      <name>$PROJ_DIR$\..\..\include\gattservapp.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\OAD\oad.h</name>
       <excluded>
         <configuration>CC2541DK-MINI Keyfob</configuration>
         <configuration>CC2541</configuration>
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\OAD\oad_target.c</name>
       <excluded>
         <configuration>CC2541DK-MINI Keyfob</configuration>
         <configuration>CC2541</configuration>
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\OAD\oad_target.h</name>
       <excluded>
         <configuration>CC2541DK-MINI Keyfob</configuration>
         <configuration>CC2541</configuration>
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\peripheral.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\peripheral.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\peripheral.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\peripheral.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\peripheralBroadcaster.c</name>
-      <excluded>
-        <configuration>CC2541DK-MINI Keyfob</configuration>
-        <configuration>CC2541</configuration>
-        <configuration>CC2541-OAD-ImgA</configuration>
-        <configuration>CC2541-OAD-ImgB</configuration>
-        <configuration>CC2541-OAD-Encrypted-ImgA</configuration>
-        <configuration>CC2541-OAD-Encrypted-ImgB</configuration>
-      </excluded>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Roles\peripheralBroadcaster.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\peripheralBroadcaster.c</name>
       <excluded>
         <configuration>CC2541DK-MINI Keyfob</configuration>
         <configuration>CC2541</configuration>
@@ -6732,13 +6954,24 @@
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\SimpleProfile\simpleGATTprofile.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\Roles\peripheralBroadcaster.h</name>
+      <excluded>
+        <configuration>CC2541DK-MINI Keyfob</configuration>
+        <configuration>CC2541</configuration>
+        <configuration>CC2541-OAD-ImgA</configuration>
+        <configuration>CC2541-OAD-ImgB</configuration>
+        <configuration>CC2541-OAD-Encrypted-ImgA</configuration>
+        <configuration>CC2541-OAD-Encrypted-ImgB</configuration>
+      </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\SimpleProfile\simpleGATTprofile.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\SimpleProfile\simpleGATTprofile.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Keys\simplekeys.c</name>
+      <name>$PROJ_DIR$\..\..\profiles\SimpleProfile\simpleGATTprofile.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\profiles\Keys\simplekeys.c</name>
       <excluded>
         <configuration>CC2541</configuration>
         <configuration>CC2541-OAD-ImgA</configuration>
@@ -6748,7 +6981,7 @@
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\Profiles\Keys\simplekeys.h</name>
+      <name>$PROJ_DIR$\..\..\profiles\Keys\simplekeys.h</name>
       <excluded>
         <configuration>CC2541</configuration>
         <configuration>CC2541-OAD-ImgA</configuration>
